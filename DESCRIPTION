@@ -1,0 +1,40 @@
+Package: HFinT2DMNoInsulin
+Type: Package
+Title: A Package Skeleton for Patient Level Prediction Studies
+Version: 0.0.1
+Author: Ross D. Williams [aut, cre]
+Maintainer: Ross D. Williams <r.williams@ohdsi.org>
+Description: Development package for predicting heart failure in t2dm patients
+Depends:
+    DatabaseConnector
+Imports:
+    SqlRender,
+    Cyclops,
+    FeatureExtraction,
+    PatientLevelPrediction,
+    ggplot2,
+    OhdsiSharing,
+    zip,
+	ParallelLogger,
+	magrittr,
+	dplyr,
+	officer,
+	gridExtra,
+	rvg,
+	jsonlite,
+	shiny,
+	shinycssloaders,
+  shinydashboard,
+  R.utils
+Suggests:
+    knitr,
+    rmarkdown,
+    DT,
+    reshape2,
+    tools,
+    plotly,
+    Hydra
+License: Apache License 2.0
+VignetteBuilder: knitr
+LazyData: TRUE
+RoxygenNote: 6.0.1.9000
