@@ -28,7 +28,7 @@ Dependencies
   
 Guide
 ============
-A general guide for running a valdiation study package is available here: [Skeleton Validation Study guide](https://github.com/OHDSI/StudyProtocolSandbox/tree/master/HFinT2DMNoInsulinValidation/inst/doc/UsingSkeletonValidationPackage.pdf)
+A general guide for running a valdiation study package is available here: [Skeleton Validation Study guide](https://github.com/OHDSI/StudyProtocolSandbox/tree/master/PredictingHFinT2DM/validation/inst/doc/UsingSkeletonValidationPackage.pdf)
   
   
 A1. Installing the package from GitHub
@@ -36,7 +36,7 @@ A1. Installing the package from GitHub
 ```r
 # To install the package from github:
 install.packages("devtools")
-devtools::install_github("ohdsi-studies/HFinT2DMNoInsulinValidation")
+devtools::install_github("ohdsi-studies/PredictingHFinT2DM/validation")
 ```
 
 A2. Building the package inside RStudio
@@ -47,7 +47,7 @@ A2. Building the package inside RStudio
 B. Getting Started
 ===============
   1. Make sure to have either: installed (A1) or built (A2) the package 
-  2. In R, run the code in 'extras/codeToRun.R' (see [Skeleton Validation Study guide](https://github.com/OHDSI/StudyProtocolSandbox/tree/master/HFinT2DMNoInsulinValidation/inst/doc/UsingSkeletonValidationPackage.pdf) for guideance)
+  2. In R, run the code in 'extras/codeToRun.R' (see [Skeleton Validation Study guide](https://github.com/OHDSI/StudyProtocolSandbox/tree/master/PredictingHFinT2DM/validation/inst/doc/UsingSkeletonValidationPackage.pdf) for guideance)
 
 
 C. Example Code
